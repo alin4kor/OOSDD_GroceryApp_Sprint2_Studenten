@@ -4,10 +4,12 @@
              x:Class="Grocery.App.Views.GroceryListsView"
              xmlns:vm="clr-namespace:Grocery.App.ViewModels"
              xmlns:m="clr-namespace:Grocery.Core.Models;assembly=Grocery.Core"
+             xmlns:local="clr-namespace:Grocery.App.ViewModels"
              Title="GroceryListsView">
     <Shell.TitleView>
         <Grid>
             <Label Text="Boodschappenlijsten" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="{Binding Source={x:Static local:LoginViewModel.CurrentUserName}}"  FontSize="Medium" HorizontalOptions="End" Margin="8"  VerticalOptions="Center"/>
         </Grid>
     </Shell.TitleView>
 
