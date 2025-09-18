@@ -1,5 +1,19 @@
 # GroceryApp sprint2 
 
+## Gitflow Branches
+
+- main 
+  Bevat altijd productieklare code.
+
+- develop  
+ Branch voor actieve ontwikkeling. Nieuwe functies en bugfixes worden hier samengevoegd voordat er een release wordt gemaakt.
+
+- feature/"naam"
+  Voor elke nieuwe User Case wordt een aparte feature-branch gemaakt vanuit develop.  
+
+- hotfix/"naam"  
+  Voor kritieke productieproblemen.
+
 ## Docentversie  
 In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.  
 
